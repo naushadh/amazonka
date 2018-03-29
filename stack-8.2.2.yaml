@@ -6,7 +6,8 @@ local-bin-path: bin
 flags: {}
 
 extra-deps:
-- ede-0.2.8.7 # TODO: replace this with a newer version that fixes: https://github.com/brendanhay/ede/issues/28
+- git: git@github.com:naushadh/ede.git #- ede-0.2.8.7 # TODO: replace this with a newer version that fixes: https://github.com/brendanhay/ede/issues/28
+  commit: 5c9c2ed607a6d88d288e69e697b69987a038ef32
 - text-regex-replace-0.1.1.1
 
 packages:
